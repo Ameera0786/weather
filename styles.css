@@ -1,0 +1,76 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+input {
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: dodgerblue;
+}
+
+#weatherFeedback {
+    font-size: 18px;
+    color: orangered;
+    margin-bottom: 20px;
+}
+
+/* Main Temperature Section Styles */
+#temperatureSection {
+    font-size: 32px;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    visibility: hidden; /* Initially hidden */
+}
+
+/* Weather Table Styles */
+#weatherTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    visibility: hidden; /* Initially hidden */
+}
+
+/*Adds a border and makes the table appealing*/
+#weatherTable th, #weatherTable td {
+    padding: 12px 20px;
+    border: 1px solid white;
+    text-align: left;
+}
+
+/*Colors the left side of the table*/
+#weatherTable th {
+    background-color: dodgerblue;
+    color: white;
+    font-size: 18px;
+}
+
+/*Colors the text on the right side of table*/
+#weatherTable td {
+    font-size: 16px;
+    color: lightslategray;
+}

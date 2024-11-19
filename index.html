@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h2>Weather App</h2>
+
+<!-- Input city and submit -->
+<form id="weatherForm">
+    <label for="cityInput">Enter a city: </label>
+    <input id="cityInput" placeholder="E.g. New York" type="text">
+    <button type="submit">Retrieve Weather</button>
+</form>
+
+<!-- Section for displaying weather information -->
+<div id="weatherFeedback"></div>
+
+<!-- Temperature Section, main focus -->
+<div id="temperatureSection">
+    <h3 id="cityName"></h3>
+    <p>
+        <span id="temperature"></span>
+    </p>
+    <img id="weatherIcon" alt="Weather Icon"  src=""/>
+</div>
+
+<!-- Weather Data Table, separates each row --> 
+<table id="weatherTable">
+    <tr>
+        <th>Weather</th>
+        <td id="weather"></td>
+    </tr>
+    <tr>
+        <th>Feels Like</th>
+        <td id="feelsLike"></td>
+    </tr>
+    <tr>
+        <th>Min Temperature</th>
+        <td id="minTemperature"></td>
+    </tr>
+    <tr>
+        <th>Max Temperature</th>
+        <td id="maxTemperature"></td>
+    </tr>
+    <tr>
+        <th>Humidity</th>
+        <td id="humidity"></td>
+    </tr>
+    <tr>
+        <th>Pressure</th>
+        <td id="pressure"></td>
+    </tr>
+    <tr>
+        <th>Wind Speed</th>
+        <td id="windSpeed"></td>
+    </tr>
+    <tr>
+        <th>Wind Direction</th>
+        <td id="windDirection"></td>
+    </tr>
+    <tr>
+        <th>Cloudiness</th>
+        <td id="cloudiness"></td>
+    </tr>
+    <tr>
+        <th>Visibility</th>
+        <td id="visibility"></td>
+    </tr>
+    <tr>
+        <th>Sunrise</th>
+        <td id="sunrise"></td>
+    </tr>
+    <tr>
+        <th>Sunset</th>
+        <td id="sunset"></td>
+    </tr>
+</table>
+
+<script src="script.js"></script>
+</body>
+
+</html>
+
